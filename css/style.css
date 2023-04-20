@@ -1,0 +1,72 @@
+.logo{
+    display: block;
+    margin:auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/165/747/HD-wallpaper-beautiful-landscape-digital-art.jpg);
+    background-repeat: no-repeat;
+
+
+    height:95vh;
+    
+}
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+  
+    max-width: 600px;
+    max-height: fit-content;
+    border: 2px solid rgba(0, 0, 0, 0);
+    color: black;
+    margin:auto;
+    height: 60vh;
+    overflow-y: auto;
+    
+}
+.message{
+ background-color: grey;
+ width: 24%;
+ padding: 10px;
+ border: 2px solid black;
+ border-radius: 15px;
+
+}
+.left{
+    float: left;
+    clear: both;
+
+ 
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+   text-align: center;
+   max-width: 985px;
+   width:100% ;
+
+}
+#message-Inp{
+    width: 60%;
+    /* padding-top: 10px; */
+    border: 2px solid black;
+    border-radius: 34px;
+
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+
+}

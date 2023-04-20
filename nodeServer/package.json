@@ -1,0 +1,16 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is a node server",
+  "main": "index.js",
+  "scripts": {
+
+    "start": "nodemon server.js"
+  },
+  "author": "pratham",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
